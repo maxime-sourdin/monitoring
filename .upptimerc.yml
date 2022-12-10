@@ -1,24 +1,92 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: maxime-sourdin # Your GitHub organization or username, where this repository lives
+repo: monitoring # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  - name: ACME
+    url: https://acme.sourdin.ovh
+    expectedStatusCodes:
+      - 404
+  - name: ArgoCD
+    url: https://argocd.sourdin.ovh
+    expectedStatusCodes:
+      - 200
+  - name: AWX
+    url: https://awx.sourdin.ovh
+    expectedStatusCodes:
+      - 200
+  - name: DNS Over HTTPS
+    url: https://dns.sourdin.ovh
+    expectedStatusCodes:
+      - 502
+  - name: Grafana
+    url: https://grafana.sourdin.ovh
+    expectedStatusCodes:
+      - 200
+  - name: maxime.sourdin.ovh
+    url: https://maxime.sourdin.ovh
+    expectedStatusCodes:
+      - 200
+  - name: proxy-docker.sourdin.ovh
+    url: https://proxy-docker.sourdin.ovh
+    expectedStatusCodes:
+      - 403
+  - name: repo-docker.sourdin.ovh
+    url: https://repo-docker.sourdin.ovh
+    expectedStatusCodes:
+      - 403
+  - name: repo-pub-docker.sourdin.ovh
+    url: https://repo-pub-docker.sourdin.ovh
+    expectedStatusCodes:
+      - 403
+  - name: rss.sourdin.ovh
+    url: https://rss.sourdin.ovh
+    expectedStatusCodes:
+      - 200  
+  - name: rss-bridge.sourdin.ovh
+    url: https://rss-bridge.sourdin.ovh
+    expectedStatusCodes:
+      - 200      
+  - name: shaarli.sourdin.ovh
+    url: https://shaarli.sourdin.ovh
+    expectedStatusCodes:
+      - 200   
+  - name: DNS over TLS
+    check: "tcp-ping"
+    url: dns.sourdin.ovh
+    port: 853
+  - name: pve
+    check: "tcp-ping"
+    url: appart.sourdin.ovh
+    port: 13111
+  - name: openvpn
+    check: "tcp-ping"
+    url: appart.sourdin.ovh
+    port: 11194
+  - name: wireguard
+    check: "tcp-ping"
+    url: appart.sourdin.ovh
+    port: 51820 
 
+  - name: biscuit.town
+    url: https://biscuit.town
+    expectedStatusCodes:
+      - 200 
+  - name: pipou.academy
+    url: https://pipou.academy
+    expectedStatusCodes:
+      - 200
+  - name: botsin.space
+    url: https://botsin.space
+    expectedStatusCodes:
+      - 200      
+      
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
+  name: SOURDIN
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
