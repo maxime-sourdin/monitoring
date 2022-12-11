@@ -23,10 +23,18 @@ sites:
     url: https://grafana.sourdin.ovh
     expectedStatusCodes:
       - 200
+  - name: nidruos.sourdin.ovh
+    url: https://nidruos.sourdin.ovh
+    expectedStatusCodes:
+      - 200      
   - name: maxime.sourdin.ovh
     url: https://maxime.sourdin.ovh
     expectedStatusCodes:
       - 200
+  - name: monitoring.sourdin.ovh
+    url: https://monitoring.sourdin.ovh
+    expectedStatusCodes:
+      - 200      
   - name: proxy-docker.sourdin.ovh
     url: https://proxy-docker.sourdin.ovh
     expectedStatusCodes:
@@ -55,6 +63,14 @@ sites:
     check: "tcp-ping"
     url: dns.sourdin.ovh
     port: 853
+  - name: http
+    check: "tcp-ping"
+    url: appart.sourdin.ovh
+    port: 80  
+  - name: https
+    check: "tcp-ping"
+    url: appart.sourdin.ovh
+    port: 443     
   - name: pve
     check: "tcp-ping"
     url: appart.sourdin.ovh
@@ -63,7 +79,11 @@ sites:
   - name: biscuit.town
     url: https://biscuit.town
     expectedStatusCodes:
-      - 200 
+      - 200
+  - name: ouin.land
+    url: https://ouin.land
+    expectedStatusCodes:
+      - 200       
   - name: pipou.academy
     url: https://pipou.academy
     expectedStatusCodes:
@@ -71,12 +91,17 @@ sites:
   - name: botsin.space
     url: https://botsin.space
     expectedStatusCodes:
-      - 200      
+      - 200
+  - name: maximedurand-ux.fr
+    url: https://www.maximedurand-ux.fr
+    expectedStatusCodes:
+      - 200   
       
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # baseUrl: /your-repo-name
+  cname: monitoring.sourdin.ovh
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: SOURDIN
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
