@@ -133,7 +133,7 @@
     "status": "up",
     "uptime": "98.82%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "99.82%",
+    "uptimeWeek": "99.91%",
     "uptimeMonth": "98.82%",
     "uptimeYear": "98.82%",
     "time": 206,
@@ -170,18 +170,19 @@
     "url": "https://repo-docker.sourdin.ovh",
     "icon": "https://icons.duckduckgo.com/ip3/repo-docker.sourdin.ovh.ico",
     "slug": "repo-docker-sourdin-ovh",
-    "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
+    "status": "down",
+    "uptime": "99.94%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.94%",
+    "uptimeYear": "99.94%",
     "time": 501,
     "timeDay": 544,
     "timeWeek": 480,
     "timeMonth": 501,
     "timeYear": 501,
     "dailyMinutesDown": {
+      "2022-12-18": 1,
       "2022-12-10": 6
     }
   },
@@ -231,18 +232,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/rss-bridge.sourdin.ovh.ico",
     "slug": "rss-bridge-sourdin-ovh",
     "status": "down",
-    "uptime": "98.42%",
-    "uptimeDay": "87.45%",
-    "uptimeWeek": "98.21%",
-    "uptimeMonth": "98.42%",
-    "uptimeYear": "98.42%",
+    "uptime": "98.34%",
+    "uptimeDay": "86.79%",
+    "uptimeWeek": "98.11%",
+    "uptimeMonth": "98.34%",
+    "uptimeYear": "98.34%",
     "time": 1253,
     "timeDay": 821,
     "timeWeek": 1186,
     "timeMonth": 1253,
     "timeYear": 1253,
     "dailyMinutesDown": {
-      "2022-12-18": 181
+      "2022-12-18": 190
     }
   },
   {
@@ -269,18 +270,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "dns-over-tls",
     "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "uptime": "99.92%",
+    "uptimeDay": "99.33%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
     "time": 234,
     "timeDay": 251,
     "timeWeek": 228,
     "timeMonth": 234,
     "timeYear": 234,
     "dailyMinutesDown": {
-      "2022-12-18": 0
+      "2022-12-18": 10
     }
   },
   {
