@@ -40,19 +40,19 @@
     "url": "https://awx.sourdin.ovh",
     "icon": "https://icons.duckduckgo.com/ip3/awx.sourdin.ovh.ico",
     "slug": "awx-sourdin-ovh",
-    "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
-    "time": 1032,
-    "timeDay": 510,
-    "timeWeek": 613,
-    "timeMonth": 1032,
-    "timeYear": 1032,
+    "status": "up",
+    "uptime": "99.90%",
+    "uptimeDay": "99.23%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
+    "time": 980,
+    "timeDay": 485,
+    "timeWeek": 594,
+    "timeMonth": 980,
+    "timeYear": 980,
     "dailyMinutesDown": {
-      "2022-12-18": 1
+      "2022-12-18": 11
     }
   },
   {
@@ -254,18 +254,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/shaarli.sourdin.ovh.ico",
     "slug": "shaarli-sourdin-ovh",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.91%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "99.89%",
+    "uptimeDay": "99.13%",
+    "uptimeWeek": "99.88%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
     "time": 6156,
     "timeDay": 5760,
     "timeWeek": 6438,
     "timeMonth": 6156,
     "timeYear": 6156,
     "dailyMinutesDown": {
-      "2022-12-18": 1
+      "2022-12-18": 13
     }
   },
   {
@@ -274,18 +274,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "dns-over-tls",
     "status": "down",
-    "uptime": "99.28%",
-    "uptimeDay": "94.25%",
-    "uptimeWeek": "99.18%",
-    "uptimeMonth": "99.28%",
-    "uptimeYear": "99.28%",
+    "uptime": "99.19%",
+    "uptimeDay": "93.47%",
+    "uptimeWeek": "99.07%",
+    "uptimeMonth": "99.19%",
+    "uptimeYear": "99.19%",
     "time": 234,
     "timeDay": 251,
     "timeWeek": 228,
     "timeMonth": 234,
     "timeYear": 234,
     "dailyMinutesDown": {
-      "2022-12-18": 83
+      "2022-12-18": 94
     }
   },
   {
