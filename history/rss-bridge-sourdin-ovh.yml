@@ -1,7 +1,7 @@
 url: https://rss-bridge.sourdin.ovh
-status: up
-code: 200
-responseTime: 1185
-lastUpdated: 2022-12-17T23:06:18.216Z
+status: down
+code: 404
+responseTime: 456
+lastUpdated: 2022-12-18T15:53:00.098Z
 startTime: Sat Dec 10 2022 20:08:03 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
