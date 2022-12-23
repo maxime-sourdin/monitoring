@@ -1,7 +1,7 @@
 url: https://argocd.sourdin.ovh
-status: up
-code: 200
-responseTime: 720
-lastUpdated: 2022-12-23T22:35:22.817Z
+status: down
+code: 404
+responseTime: 849
+lastUpdated: 2022-12-23T22:43:44.670Z
 startTime: Sat Dec 10 2022 20:13:37 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
