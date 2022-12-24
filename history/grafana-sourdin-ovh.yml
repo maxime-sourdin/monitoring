@@ -1,7 +1,7 @@
 url: https://grafana.sourdin.ovh
-status: down
-code: 404
-responseTime: 875
-lastUpdated: 2022-12-24T01:52:01.772Z
+status: up
+code: 200
+responseTime: 900
+lastUpdated: 2022-12-24T02:43:13.844Z
 startTime: Sat Dec 10 2022 20:13:45 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
