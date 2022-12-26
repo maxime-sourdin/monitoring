@@ -1,7 +1,7 @@
 url: https://proxy-docker.sourdin.ovh
-status: down
-code: 404
-responseTime: 501
-lastUpdated: 2022-12-26T09:35:12.756Z
+status: up
+code: 400
+responseTime: 637
+lastUpdated: 2022-12-26T09:43:44.787Z
 startTime: Sat Dec 10 2022 20:07:52 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
