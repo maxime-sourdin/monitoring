@@ -34,19 +34,7 @@ sites:
   - name: monitoring.sourdin.ovh
     url: https://monitoring.sourdin.ovh
     expectedStatusCodes:
-      - 200      
-  - name: proxy-docker.sourdin.ovh
-    url: https://proxy-docker.sourdin.ovh
-    expectedStatusCodes:
-      - 400
-  - name: repo-docker.sourdin.ovh
-    url: https://repo-docker.sourdin.ovh
-    expectedStatusCodes:
-      - 400
-  - name: repo-pub-docker.sourdin.ovh
-    url: https://repo-pub-docker.sourdin.ovh
-    expectedStatusCodes:
-      - 400
+      - 200
   - name: rss.sourdin.ovh
     url: https://rss.sourdin.ovh
     expectedStatusCodes:
