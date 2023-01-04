@@ -3,6 +3,38 @@ owner: maxime-sourdin # Your GitHub organization or username, where this reposit
 repo: monitoring # The name of this repository
 runner: "[self-hosted, linux, AMD64]"
 sites:
+  - name: minio.sourdin.local
+    url: https://minio.sourdin.local
+    expectedStatusCodes:
+      - 200
+  - name: s3.sourdin.local
+    url: https://s3.sourdin.local
+    expectedStatusCodes:
+      - 403
+  - name: prom.sourdin.local
+    url: https://prom.sourdin.local
+    expectedStatusCodes:
+      - 200
+  - name: thanos.sourdin.local
+    url: https://thanos.sourdin.local
+    expectedStatusCodes:
+      - 200
+  - name: nexus.sourdin.local
+    url: https://nexus.sourdin.local
+    expectedStatusCodes:
+      - 200
+  - name: proxy-docker.sourdin.local
+    url: https://proxy-docker.sourdin.local
+    expectedStatusCodes:
+      - 400
+  - name: repo-docker.sourdin.local
+    url: https://repo-docker.sourdin.local
+    expectedStatusCodes:
+      - 400
+  - name: repo-pub-docker.sourdin.local
+    url: https://repo-pub-docker.sourdin.local
+    expectedStatusCodes:
+      - 400
   - name: acme.sourdin.ovh
     url: https://acme.sourdin.ovh
     expectedStatusCodes:
