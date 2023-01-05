@@ -1,7 +1,7 @@
 # Change these first
 owner: maxime-sourdin # Your GitHub organization or username, where this repository lives
 repo: monitoring # The name of this repository
-runner: "[self-hosted]"
+runner: "[self-hosted, Linux, X64]"
 sites:
   - name: minio.sourdin.local
     url: https://minio.sourdin.local
