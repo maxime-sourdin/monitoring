@@ -62,7 +62,10 @@ sites:
     check: "tcp-ping"
     url: appart.sourdin.ovh
     port: 13111
-
+  - name: vpn
+    check: "udp-ping"
+    url: appart.sourdin.ovh
+    port: 11194
   - name: biscuit.town
     url: https://biscuit.town
     expectedStatusCodes:
