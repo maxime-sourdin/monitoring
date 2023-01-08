@@ -40,10 +40,6 @@ sites:
     url: https://rss.sourdin.ovh
     expectedStatusCodes:
       - 200  
-  - name: rss-bridge.sourdin.ovh
-    url: https://rss-bridge.sourdin.ovh
-    expectedStatusCodes:
-      - 200      
   - name: shaarli.sourdin.ovh
     url: https://shaarli.sourdin.ovh
     expectedStatusCodes:
